@@ -1,0 +1,111 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.cabecalho {
+    height: 100px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#slogan {
+    margin: 100px;
+    font-size: 25px;
+}
+
+#slogan ::before {
+    content: "🐾";
+}
+
+#slogan ::after {
+    content: "🐾";
+}
+
+.campo {
+    height: 300px;
+    background-color: rgb(255, 165, 0);
+}
+
+h1 {
+    text-shadow: 2px 2px 5px rgb(113, 219, 27);
+}
+
+#slogan:hover {
+    font-size: 30px;
+}
+
+.naves {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav {
+    margin: 36px;
+    font-size: 30px;
+}
+
+a {
+    color: black;
+    text-shadow: 2px 2px 5px rgb(113, 219, 27);
+}
+
+nav:hover {
+    font-size: 35px;
+}
+
+.escolha {
+    margin-left: 18%;
+    margin-top: 1em;
+}
+
+@media only screen and (max-width: 700px) {
+    #slogan {
+        display: none;
+    }
+    .naves {
+        flex-direction: column;
+    }
+}
+
+.imagens {
+    border-radius: 20px;
+    width: 190px;
+    height: 190px;
+    padding: 13px;
+}
+
+.imagens:hover {
+    -webkit-box-shadow: 9px 7px 5px rgba(228, 45, 235, 0.77);
+    -moz-box-shadow: 9px 7px 5px rgba(205, 48, 236, 0.77);
+    box-shadow: 9px 7px 5px rgba(206, 42, 165, 0.77);
+}
+
+.fundo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 70%;
+    padding: 10px;
+    background-color: rgb(255, 165, 0);
+}
+
+.apresentacao {
+    font-size: large;
+}
+
+body {
+    background-color: rgb(255, 165, 0);
+}
+
+.rodaPe {
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    font-size: x-large;
+}
